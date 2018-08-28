@@ -1,3 +1,5 @@
+Functional requirements by format
+
 REQ-1: Dashboard_Panel  -  The system shall authenticate the user and then display panel based on the particular identified user 
 REQ-2: Add_Bill - The system shall allow the user to add bill details based on the user’s need to track the type of expenses 
 REQ-3: Back - The system should navigate the user back to dashboard screen 
