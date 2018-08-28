@@ -1,0 +1,10 @@
+REQ-1: Dashboard_Panel  -  The system shall authenticate the user and then display panel based on the particular identified user 
+REQ-2: Add_Bill - The system shall allow the user to add bill details based on the user’s need to track the type of expenses 
+REQ-3: Back - The system should navigate the user back to dashboard screen 
+REQ-4: Expense_Planner - The system should graphically represent the current month figure based on user’s current month expenses and user’s own budget share
+REQ-5: Expense_Tracker - The system should graphically represent the yearly expense numbers in form of report 
+REQ-6: Lent/Owe - The system shall track record of the people to whom the user owe or lent money 
+REQ-7: Download_PDF - The system shall allow user to track monthly expense report when in offline mode to track report of expenses 
+REQ-8: Goals - The system shall track set up goals for the user based on frequent expenditure 
+REQ-9: Rewards- The system shall encourage user and give rewards when the user meets a set budget
+REQ-10: Login- The system shall take in student details
