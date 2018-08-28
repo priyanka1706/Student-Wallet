@@ -1,0 +1,65 @@
+<html>
+<head>
+	
+	<title>Student Wallet Home</title>
+	<style type="text/css">
+ 
+            body {font-family:Arial, Sans-Serif;}
+ 
+            #container {width:300px; margin:0 auto;}
+ 
+            /* Nicely lines up the labels. */
+            form label {display:inline-block; width:140px;}
+ 
+            /* You could add a class to all the input boxes instead, if you like. That would be safer, and more backwards-compatible */
+            form input[type="text"],
+            form input[type="password"],
+            form input[type="email"] {width:160px;}
+ 
+            form .line {clear:both;}
+            form .line.submit {text-align:right;}
+ 
+        </style>
+	<link rel="stylesheet" type="text/css" href="stylec.css">
+</head>
+<body>
+
+	<section class="intro" id="zen-intro">
+		<header role="banner">
+		</header>
+	</section>
+
+	<div class="preamble" id="zen-preamble" role="article">
+	<h3><b>STUDENT WALLET</b></h3>
+
+	<div class="preamble" id="zen-preamble" role="article">
+	<h5><b>From Spending to Saving</b></h5><br>
+	
+	<p style="font-family:tahoma;">Hey there! Welcome to Student Wallet!<br>We hope we can help!</p><br>
+
+<h4><b>Sign Up Here</b></h4>
+	<div id="container">
+            <form action="userconn.php" method="post">
+                <table>
+				<tr><td><label for="username">Username *: </label></td><td><input type="text" name="uname" /></td></tr>
+                <tr><td><label for="pwd">Password *: </label></td><td><input type="password" name="pwd" /></td></tr>
+                <tr><td><label for="surname">Full Name *: </label></td><td><input type="text" name="name" /></td></tr>
+                <tr><td><label for="dob">Date of Birth *: </label></td><td><input type="text" name="dob" /></td></tr>
+                <tr><td><label for="email">Email *: </label></td><td><input type="email" name="email" /><</td></tr>
+                <tr><td><input type="submit" value="Submit" /></div>
+				</table>
+                <p><br>Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!.</p>
+            </form>
+    </div>
+
+	<br>
+
+	<p role="contentinfo" style="text-align: center;">Join Us on <br>
+		<a href="https://www.facebook.com/studentwallet"><img id="facebook" border="0" alt="Facebook" src="facebook.png" height="32px" width="32px"></a>
+		<a href="https://www.twitter.com/studentwallet"><img id="twitter" border="0" alt="Twitter" src="twitter.png" height="32px" width="32px"></a>
+		<br>Student Wallet 2016. All Rights Reserved.
+		</p>
+			<footer></footer>
+</footer>
+</body>
+</html>
